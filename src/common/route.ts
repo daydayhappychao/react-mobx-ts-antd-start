@@ -19,10 +19,10 @@ export const sideBar = [
     sidebarIcon: 'cubes'
   },
   {
-    path: "/Ceshi",
+    path: "/ce_shi",
     sidebar: '2号',
     sidebarIcon: 'database'
   }
 ]
 
-export const rootRoute = 'Ceshi'
+export const rootRoute = 'ce_shi'

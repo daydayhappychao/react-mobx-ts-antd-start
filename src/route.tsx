@@ -22,6 +22,7 @@ const app = () =>
           routes.map((v, k) => {
             let path = v.replace(/([A-Z])/g, "_$1").replace(/\_/, '/').toLowerCase()
             if (path === '/home') path = '/'
+            console.log(path)
             return <Route exact path={path} key={k} component={() => getPage(v)} />
           })
         }
